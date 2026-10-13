@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="dsh-model-quick-picker">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4b6fff"/>
+      <stop offset="1" stop-color="#7da1de"/>
+    </linearGradient>
+  </defs>
+  <!-- two-column panel -->
+  <rect x="6" y="12" width="52" height="40" rx="6" fill="none" stroke="url(#g)" stroke-width="2.5"/>
+  <!-- left column: provider rows -->
+  <line x1="26" y1="14" x2="26" y2="50" stroke="url(#g)" stroke-width="2.5"/>
+  <rect x="10" y="18" width="12" height="3" rx="1.5" fill="#4b6fff"/>
+  <rect x="10" y="25" width="12" height="3" rx="1.5" fill="#4b6fff" opacity="0.55"/>
+  <rect x="10" y="32" width="12" height="3" rx="1.5" fill="#4b6fff" opacity="0.55"/>
+  <!-- right column: model rows -->
+  <rect x="31" y="18" width="22" height="3" rx="1.5" fill="#7da1de"/>
+  <rect x="31" y="25" width="16" height="3" rx="1.5" fill="#7da1de" opacity="0.55"/>
+  <rect x="31" y="32" width="19" height="3" rx="1.5" fill="#7da1de" opacity="0.55"/>
+  <!-- effort chips along the foot -->
+  <rect x="31" y="42" width="7" height="5" rx="2.5" fill="#4b6fff"/>
+  <rect x="40" y="42" width="7" height="5" rx="2.5" fill="#4b6fff" opacity="0.45"/>
+  <rect x="49" y="42" width="5" height="5" rx="2.5" fill="#4b6fff" opacity="0.45"/>
+</svg>

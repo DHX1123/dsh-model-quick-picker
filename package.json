@@ -1,0 +1,47 @@
+{
+  "name": "dsh-model-quick-picker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "双栏模型选择器：左供应商右模型 + 常显搜索 + 最近使用 + 思考等级横排直选，并按供应商显示剩余积分/余额/额度。dsh-our-free-model 的配套附属插件（可独立使用）。 A two-column model picker for dsh with search, recents, inline reasoning effort, and per-provider credits/balance. Companion plugin to dsh-our-free-model.",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README_EN.md",
+    "LICENSE",
+    "icon.svg"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "model-picker",
+    "model-selection",
+    "ui",
+    "our-free-model",
+    "companion-plugin"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2"
+  }
+}

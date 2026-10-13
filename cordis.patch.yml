@@ -1,0 +1,8 @@
+# dsh-model-quick-picker bundle patch.
+#
+# 一行 insert 挂载（本插件无 Host 半身，apply 为空）；浏览器半身由 package.json
+# 的 dsh.client 声明，并绑定在 name 为裸包名的这一行上。
+- insert:
+    - id: model-quick-picker
+      name: 'dsh-model-quick-picker'
+      config: {}
