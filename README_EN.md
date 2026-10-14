@@ -62,7 +62,7 @@ number abbreviation — so the two always agree.
 Search this repository in the dsh plugin market, or give the GitHub spec directly:
 
 ```
-github:<owner>/dsh-model-quick-picker
+github:DHX1123/dsh-model-quick-picker
 ```
 
 ### Manually

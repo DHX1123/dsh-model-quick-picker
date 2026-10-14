@@ -27,6 +27,15 @@
     "our-free-model",
     "companion-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DHX1123/dsh-model-quick-picker.git"
+  },
+  "homepage": "https://github.com/DHX1123/dsh-model-quick-picker#readme",
+  "bugs": {
+    "url": "https://github.com/DHX1123/dsh-model-quick-picker/issues"
+  },
+  "author": "DHX1123",
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
   },

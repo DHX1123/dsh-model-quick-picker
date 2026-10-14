@@ -58,7 +58,7 @@
 在 dsh 插件市场里搜索本仓库，或直接给出 GitHub 规格：
 
 ```
-github:<owner>/dsh-model-quick-picker
+github:DHX1123/dsh-model-quick-picker
 ```
 
 ### 手动安装
