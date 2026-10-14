@@ -41,9 +41,9 @@ window.__ModuleLoader__.load({
     // resolveExtras(routeId) → { label, detail, tone? } | null
     //
     // relay    — usage-billing 的 /api/billing/relay-quotas（键 route === 目录 group.id，
-    //            实测对 deepseel 直接 join，零映射）。
+    //            所以能直接 join，零映射成本）。
     // channel  — our-free-model channel-pack 的 RPC credits.balances（键 provider === 渠道路由 id）。
-    //            口径与 our-free-model 设置页「剩余积分 700」完全一致：balance.total 求和。
+    //            口径与 our-free-model 设置页「剩余积分 N」完全一致：balance.total 求和。
     // official — usage-billing 的 /api/billing/balance（键是中文显示名，需别名表）。
     // ─────────────────────────────────────────────────────────────────────
 
@@ -131,7 +131,7 @@ window.__ModuleLoader__.load({
 
     /**
      * channel-pack 的 credits.balances RPC —— 与 our-free-model 设置页
-     * 「剩余积分 700」同一个数据源、同一个口径。ctx 从调用方传进来。
+     * 「剩余积分 N」同一个数据源、同一个口径。ctx 从调用方传进来。
      * 返回 { accounts: [{accountId, nickname, balance, error?}] } | null。
      */
     async function loadChannelBalances(ctx, provider) {
